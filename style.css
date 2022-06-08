@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Baloo 2', cursive;
+}
+
+body {
+    background: #0F0E0E;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.img {
+    width: 15em;
+    height: auto;
+    border-radius: 100%;
+    border: 2px solid #ccd6f6;
+    transition: all .6s;
+}
+
+.img:hover {
+    transform: scale(1.25);
+}
+
+.whoami {
+    margin-top: 3em;
+}
+
+.whoami p {
+    font-size: 2.3em;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    color: #e1e5f3;
+}
+
+.social {
+    border: 2px solid #ccd6f6;
+    border-radius: 2rem;
+    padding: 1.5em;
+    margin-top: 3em;
+}
+
+.fa-brands {
+    font-size: 3em;
+    color: #ccd6f6;
+    margin-right: 1em;
+    margin-left: 1em;
+    transition: all .3s;
+}
+
+.fa-solid {
+    font-size: 3em;
+    color: #ccd6f6;
+    margin-right: 1em;
+    margin-left: 1em;
+    transition: all .3s;
+}
+
+.fa-solid:hover {
+    transform: translateY(-7px);
+}
+
+.fa-brands:hover {
+    transform: translateY(-7px);
+}
+
+/* Mobile. */
+@media only screen and (max-width: 750px) {
+
+    .div-img {
+        margin-top: 1.5em;
+    }
+
+    .img {
+        width: 15em;
+        height: auto;
+    }
+
+    .whoami {
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .whoami p {
+        font-size: 1.6em;
+    }
+
+    .social {
+        border:1px solid #ccd6f6;
+        border-radius: 12px;
+        padding: 0.7em;
+        margin-top: 3em;
+        transform: scale(1.4);
+    }
+
+    .fa-brands {
+        font-size: 1.2em;
+    }
+
+    .fa-solid {
+        font-size: 1.2em;
+    }
+}
