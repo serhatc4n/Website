@@ -17,7 +17,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 95vh;
 }
 
 .container {
@@ -29,7 +29,7 @@ body {
 }
 
 .img {
-    width: 15em;
+    width: 25em;
     height: auto;
     border-radius: 100%;
     border: 2px solid #ccd6f6;
@@ -91,7 +91,7 @@ body {
     }
 
     .img {
-        width: 15em;
+        width: 17em;
         height: auto;
     }
 
